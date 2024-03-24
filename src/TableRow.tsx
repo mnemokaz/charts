@@ -11,17 +11,6 @@ type TableRowProps = {
   thisDay: number;
 };
 
-const options = {
-  title: {
-    text: 'My chart',
-  },
-  series: [
-    {
-      data: [1, 2, 3],
-    },
-  ],
-};
-
 export const TableRow: FC<TableRowProps> = ({
   title,
   today,
