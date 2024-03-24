@@ -1,0 +1,17 @@
+body {
+  font-size: 12px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+th {
+  background-color: rgb(242, 242, 242);
+  padding: 10px;
+}
+
+th:nth-child(2) {
+  background-color: rgb(233, 246, 255);
+}
+table,
+th,
+td {
+  border: 1px solid transparent;
+}
